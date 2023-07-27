@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="178.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="migman.proyectomiguel.MenuPrincipalControler">
+   <children>
+      <Button layoutX="32.0" layoutY="31.0" mnemonicParsing="false" onAction="#MB_Registrar" text="Registrar Producto">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="32.0" layoutY="101.0" mnemonicParsing="false" onAction="#MB_Inventario" prefHeight="46.0" prefWidth="226.0" text="Revisar Inventario">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
